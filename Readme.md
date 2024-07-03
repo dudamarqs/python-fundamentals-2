@@ -1,0 +1,1 @@
+Este repositório é dedicado às atividades do curso de Python do Gustavo Guanabara, agora no nível "Mundo 2".
