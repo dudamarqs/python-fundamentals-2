@@ -1,6 +1,8 @@
+from datetime import date
+
 name = input('Informe seu nome completo: ')
 year_birth = int(input('Em que ano você nasceu? '))
-current_year = int(input('Informe o ano atual: '))
+current_year = date.today().year
 age = current_year - year_birth
 
 if age < 18:
