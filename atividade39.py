@@ -14,4 +14,4 @@ elif age == 18:
 elif age > 18:
     years = age - 18
     days = int(years*365.25)
-    print('\nJá passou {} dias ({} anos) do prazo de alistamento de {}.'.format(days, years, name))
+    print('\nJá passaram {} dias ({} anos) do prazo de alistamento de {}.'.format(days, years, name))
