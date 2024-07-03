@@ -1,11 +1,15 @@
+from datetime import date
+
 year_birth = int(input('Em que ano você nasceu? '))
-age = 2024 - year_birth
+year = date.today().year
+age = year - year_birth
+print('O atleta tem {} anos.'.format(age))
 
 if age < 10:
     print('Categoria: MIRIM.')
-elif age > 9 and age < 15:
+elif 9 < age < 15:
     print('Categoria: INFANTIL.')
-elif age > 14 and age < 20:
+elif 14 < age < 20:
     print('Categoria: JÚNIOR.')
 elif age == 20:
     print('Categoria: SÊNIOR.')
