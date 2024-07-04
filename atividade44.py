@@ -21,5 +21,5 @@ elif option == 4:
     print('Sua compra será parcelada em {}x de R${:.2f} com 20% de juros.'.format(num_inst, installment))
 else:
     print('Opção inválida.')
-    total = 0
+    total = price
 print('\nValor final da compra: R${:.2f}.'.format(total))
