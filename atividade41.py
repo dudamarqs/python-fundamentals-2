@@ -11,7 +11,7 @@ elif 9 < age < 15:
     print('Categoria: INFANTIL.')
 elif 14 < age < 20:
     print('Categoria: JÚNIOR.')
-elif age == 20:
+elif 19 < age < 25:
     print('Categoria: SÊNIOR.')
 else:
     print('Categoria: MASTER.')
