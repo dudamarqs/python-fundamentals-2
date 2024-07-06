@@ -7,4 +7,4 @@ for c in range(len(joinedWords) - 1, -1, -1):
 if inverse == joinedWords:
     print('A frase digitada é um palíndromo!')
 else:
-    print('A frase digitada não é um palíndromo')
+    print('A frase digitada não é um palíndromo!')
